@@ -25,7 +25,7 @@ app.use(express.static('public'));
 	// are static
 
 app.set('view engine', 'ejs');
-
+	// 
 app.get('/', function(req, res){
 	res.render('index', {title: "Welcome to my Todo List"})
 });
